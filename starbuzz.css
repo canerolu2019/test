@@ -1,9 +1,9 @@
 body {
-   background-color: tan;
+   background-color: rgb(14, 238, 14);
    font-family: sans-serif;
   }
   h1 {
-    front-size: 40px;
+    font-size: 40px;
   }
   h1,h3 {
     color:green;
