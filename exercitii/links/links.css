@@ -6,11 +6,39 @@ a:link {
 
 }
 a:visited {
-
+    color: brown;
 }
 a:hover {
     cursor: pointer;
     text-decoration: underline;
     text-decoration-color: lightslategrey;
+    text-decoration-style: dotted;
+} 
+::selection {
+    background-color: burlywood;
+}
+.magic {
+    display: none;
+    position: absolute;
+    top: 1em;
+    background-color: #eee;
+    border-radius: 5px;
+}
+.dropdown:hover .magic {
+    display: block;
+}
 
+.trans {
+    background-color: orange;
+    border-radius: 1em;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    padding: 30px;
+    transform: rotate(30deg) scale(0.5,0.5);
+    transition: rotate;
+}
+ .trans:hover {
+    background-color: red;
+    transition: transform 1s;
 }
