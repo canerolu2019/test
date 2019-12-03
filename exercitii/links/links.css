@@ -1,0 +1,16 @@
+a {
+   color: lightcoral;
+   text-decoration: none;
+}
+a:link {
+
+}
+a:visited {
+
+}
+a:hover {
+    cursor: pointer;
+    text-decoration: underline;
+    text-decoration-color: lightslategrey;
+
+}
