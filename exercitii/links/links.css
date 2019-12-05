@@ -41,4 +41,14 @@ a:hover {
  .trans:hover {
     background-color: red;
     transition: transform 1s;
+}.trans2 {
+    background-color: cornflowerblue;
+    position: absolute;
+    top: 20%;
+    left: 20%;
+    padding: 30px;
+    transform: rotate(-30deg);
+    transform-origin: top left;
+    transition: transform 2s;
+    transition-delay: 1s;
 }
