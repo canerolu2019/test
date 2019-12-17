@@ -27,7 +27,7 @@ var car = {
         this.mileage += distance;    
     }, 
     distanceToEmpty: function() {
-        this.fuel / this.mediumConsumption * 100;
+        return Math.round(this.fuel / this.mediumConsumption * 100);
     },
     stop: function() {   
        if(!this.engineIsOn) {
