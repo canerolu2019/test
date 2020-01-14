@@ -84,4 +84,7 @@ body {
 } 
 .human {
     visibility: hidden;
+} 
+#letters {
+    font-size: 2em;
 }
