@@ -10,18 +10,16 @@ a {
     font-size: 1.3em; 
     font-family: Futura;
 } 
-a:hover::after {
+a::after {
     content: ""; 
     display: block; 
     height: 3px; 
     background-color: darkorange; 
-    width: 0; 
-    animation-name: grow; 
-    animation-duration: 1s;  
-    animation-fill-mode: forwards;
-} 
-@keyframes grow {
-    to {
-        width: 4em;
-    }
+    transform: scaleX(0);
+    transition: transform 0.3s; 
+    width: 100%; 
+    position: absolute;
+}    
+a:hover::after {
+    transform: scaleX(1);
 }
